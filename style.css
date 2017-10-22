@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.wrapper {
+    background-color: white;
+}
+
 /* HEADER SECTION */
 .nav.navbar-nav a {
     padding: 10px 15px;
@@ -14,8 +18,8 @@
 }
 
 #header {
-    background: linear-gradient(rgba(224, 0, 82, 0.65), rgba(0, 0, 0, 0.5)), 
-  url("http://www.planwallpaper.com/static/images/Lamp-3D-Wallpaper_eAlxczz.jpg");
+    background: linear-gradient(rgba(224, 0, 82, 0.55), rgba(0, 0, 0, 0.5)), 
+  url(assets/img/header4.jpg);
     background-position: center center;
     background-size: cover;
     height: 1100px;
@@ -49,24 +53,21 @@
 /* ABOUT SECTION */
 
 #about {
-    margin-top: -20px;
-    width: auto;
-    max-width: 1920px;
     background-color: white;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 #break1 {
-    position: relative;
     background: linear-gradient(rgba(138, 0, 50, 0.65), rgba(138, 0, 50, 0.65)), 
-  url("http://www.sepeb.com/artistic-backgrounds/image_20170222_082241_2263.jpg");
+  url(assets/img/bg2.jpg);
     background-position: center center;
     background-size: cover;
     width: auto;
-    max-width: 1920px;
     height: 450px;
 }
 
-#break1 h3, p {
+#break1 h3 {
     color: white;
     font-size: 1.3em;
     line-height: 30px;
@@ -74,20 +75,24 @@
     text-align: center;
 }
 
-#break1 p {
-    font-size: 1.1em;
-    color: rgba(174, 152, 157, 1);
-}
 
 /* PORTFOLIO SECTION */
 
+#portfolio {
+    margin-top: 70px;
+}
+
 #portfolio h3 {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 #img-row1 img, #img-row2 img {
     display: block;
     margin: 0px auto;
+}
+
+.col-md-4, .col-md-6 {
+    margin-bottom: 5px;
 }
 
 .rows {
@@ -142,17 +147,16 @@
 }
 
 #break2 {
-    position: relative;
+    margin-top: 80px;
     background: linear-gradient(rgba(138, 0, 50, 0.65), rgba(0, 0, 0, 0.5)), 
   url("https://s-media-cache-ak0.pinimg.com/originals/70/b9/37/70b93735dbf8758a345cd8435b196f3c.jpg");
     background-position: center center;
     background-size: cover;
     width: auto;
-    max-width: 1920px;
     height: 400px;
 }
 
-#break2 h3, p {
+#break2 h3 {
     color: white;
     font-size: 1.3em;
     line-height: 30px;
@@ -160,27 +164,22 @@
     text-align: center;
 }
 
-#break2 p {
-    font-size: 1.1em;
-    color: rgba(174, 152, 157, 1);
-}
 
 /* PRODUCT SECTION*/
 
 #product {
-    margin: 100px;
+    margin: 150px 0 70px 0;
 }
 
 /* CLIENTS SECTION */
 
 #clients {
-    margin-top: 50px;
+    margin-top: 150px;
     background: linear-gradient(rgba(138, 0, 50, 0.65), rgba(0, 0, 0, 0.65)), 
   url("http://bgfons.com/upload/light_texture2188.jpg");
     background-position: center center;
     background-size: cover;
     width: auto;
-    max-width: 1920px;
     height: 400px;
     overflow: hidden;
 }
@@ -196,8 +195,9 @@
 /* CONTACT SECTION */
 
 #contact .card {
-    margin-top: 50px;
-    max-width: 700px;
+    margin-top: 150px;
+    max-width: 600px;
+    margin-bottom: 100px;
 }
 
 #contact .form .content .input-group {
@@ -205,6 +205,27 @@
 }
 
 /* FOOTER SOCIAL ICONS */
+
+.subscribe-line {
+    background: linear-gradient(rgba(138, 0, 50, 0.25), rgba(0, 0, 0, 0.25)), url('assets/img/bg4.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.subscribe-line .card {
+    padding: 15px;
+}
+
+.social-line .title {
+    padding: 10px;
+    color: white;
+}
+
+.social-line .btn {
+    margin-bottom: 30px;
+}
 
 #share-buttons img {
     width: 25px;
@@ -215,3 +236,5 @@
 #share-buttons a {
     text-decoration: none;
 }
+
+
